@@ -24,7 +24,7 @@ public class Animal {
         }else{
             fur = "no";
         }
-        resultString += "This animal is mostly "+ color+"."+"It has "+numberOfPaws+" "+paw+" and "+fur+" fur.";
+        resultString += "This animal is mostly "+ color+"."+" It has "+numberOfPaws+" "+paw+" and "+fur+" fur.";
         return resultString;
     }
 }
